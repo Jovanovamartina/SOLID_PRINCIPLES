@@ -1,4 +1,5 @@
 ﻿
+
 namespace SolidPrinciples.DependencyInversion
 {
     public class SalaryCalculator
