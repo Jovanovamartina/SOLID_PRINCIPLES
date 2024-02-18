@@ -22,11 +22,11 @@ namespace SolidPrinciples.OpenClosed
                 switch (employee.Type)
                 {
                     case EmployeeType.FullTime:
-                        return employee.HourlyRate * 160;  // Assuming 160 work hours in a month
+                        return employee.HourlyRate * 160;  
                     case EmployeeType.PartTime:
                         return employee.HourlyRate * employee.HoursWorked;
                     case EmployeeType.Intern:
-                        return employee.HourlyRate * employee.HoursWorked * 0.5; // Interns get 50% of their computed salary
+                        return employee.HourlyRate * employee.HoursWorked * 0.5;
                     default:
                         throw new ArgumentException("Invalid employee type");
                 }
