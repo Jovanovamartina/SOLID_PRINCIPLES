@@ -6,13 +6,7 @@ namespace SolidPrinciples.OpenClosed
         double CalculateSalary();
     }
 
-    public class SalaryCalculatorSolid
-    {
-        public double CalculateSalary(IEmployee employee)
-        {
-            return employee.CalculateSalary();
-        }
-    }
+  
 
     public class FullTimeEmployee : IEmployee
     {
@@ -46,6 +40,14 @@ namespace SolidPrinciples.OpenClosed
         }
     }
 
-  
+    public class SalaryCalculatorSolid
+    {
+        public double CalculateSalary(IEmployee employee)
+        {
+            return employee.CalculateSalary();
+        }
+    }
+
+
 }
 
