@@ -63,6 +63,8 @@ Console.WriteLine("\n");
 Console.WriteLine("*************LISKOV SUBSTITUTION*******************");
 Console.WriteLine("\n");
 
+
+
 IFruit apple = new AppleSolid();
 IFruit orange = new OrangeSolid();
 
