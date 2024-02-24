@@ -46,7 +46,7 @@ namespace SolidPrinciples.InterfaceSegregation
 
             public void SearchCatalog(string searchTerm)
             {
-                Console.WriteLine($"Member Search Book, Search Catalog: {searchTerm}");
+                Console.WriteLine($"Member Search Book: {searchTerm}");
             }
         }
 
@@ -64,7 +64,7 @@ namespace SolidPrinciples.InterfaceSegregation
 
             public void SearchCatalog(string searchTerm)
             {
-                Console.WriteLine($"Librarian Search Book, Search Catalog: {searchTerm}");
+                Console.WriteLine($"Librarian Search Book: {searchTerm}");
             }
 
             public void AddBook(BookSolid book)
@@ -82,7 +82,7 @@ namespace SolidPrinciples.InterfaceSegregation
         {
             public void SearchCatalog(string searchTerm)
             {
-                Console.WriteLine($"Guest Search Book, Search Catalog: {searchTerm}");
+                Console.WriteLine($"Guest Search Book: {searchTerm}");
             }
         }
     }

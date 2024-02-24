@@ -80,12 +80,12 @@ var member = new Member();
 var librarian = new Librarian();
 var guest = new GuestSolid();
 
-Console.WriteLine("=== Member Actions ===");
+Console.WriteLine("Member Actions");
 member.BorrowBook("123");
 member.ReturnBook("123");
 member.SearchCatalog("C# Programming");
 
-Console.WriteLine("\n=== Librarian Actions ===");
+Console.WriteLine("Librarian Actions");
 var newBook = new BookSolid
 {
     BookId = "456",
@@ -99,7 +99,7 @@ librarian.SearchCatalog("Object-Oriented Design");
 librarian.AddBook(newBook);
 librarian.RemoveBook("456");
 
-Console.WriteLine("\n=== Guest Actions ===");
+Console.WriteLine("Guest Actions");
 guest.SearchCatalog("Java Programming");
 
 Console.WriteLine("\n");
