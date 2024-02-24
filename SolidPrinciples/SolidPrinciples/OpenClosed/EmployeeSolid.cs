@@ -40,13 +40,7 @@ namespace SolidPrinciples.OpenClosed
         }
     }
 
-    public class SalaryCalculatorSolid
-    {
-        public double CalculateSalary(IEmployee employee)
-        {
-            return employee.CalculateSalary();
-        }
-    }
+
 
 
 }

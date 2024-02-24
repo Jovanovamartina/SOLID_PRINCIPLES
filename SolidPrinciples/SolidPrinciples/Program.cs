@@ -53,11 +53,11 @@ var fullTimeEmployee = new FullTimeEmployee { HourlyRate = 20 };
 var partTimeEmployee = new PartTimeEmployee { HourlyRate = 15, HoursWorked = 25 };
 var intern = new Intern { HourlyRate = 10, HoursWorked = 30 };
 
-var salaryCalculator = new SalaryCalculatorSolid();
 
-Console.WriteLine($"Full-Time Employee Salary: ${salaryCalculator.CalculateSalary(fullTimeEmployee)}");
-Console.WriteLine($"Part-Time Employee Salary: ${salaryCalculator.CalculateSalary(partTimeEmployee)}");
-Console.WriteLine($"Intern Salary: ${salaryCalculator.CalculateSalary(intern)}");
+Console.WriteLine($"Full-Time Employee Salary: ${fullTimeEmployee.CalculateSalary()}");
+Console.WriteLine($"Part-Time Employee Salary: ${partTimeEmployee.CalculateSalary()}");
+Console.WriteLine($"Intern Salary: ${intern.CalculateSalary()}");
+
 
 Console.WriteLine("\n");
 Console.WriteLine("*************LISKOV SUBSTITUTION*******************");
