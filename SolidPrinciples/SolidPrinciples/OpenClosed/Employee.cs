@@ -4,8 +4,7 @@ namespace SolidPrinciples.OpenClosed
         public enum EmployeeType
         {
             FullTime,
-            PartTime,
-            Intern
+            PartTime
         }
 
         public class Employee
@@ -25,8 +24,6 @@ namespace SolidPrinciples.OpenClosed
                         return employee.HourlyRate * 160;  
                     case EmployeeType.PartTime:
                         return employee.HourlyRate * employee.HoursWorked;
-                    case EmployeeType.Intern:
-                        return employee.HourlyRate * employee.HoursWorked * 0.5;
                     default:
                         throw new ArgumentException("Invalid employee type");
                 }
