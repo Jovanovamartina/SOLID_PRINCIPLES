@@ -55,7 +55,7 @@ namespace SolidPrinciplesUnitTest
         {
             // Arrange
             GuestSolid guest = new GuestSolid();
-            string expectedOutput = $"Guest Search Book: Unit Testing"; // Update expected output
+            string expectedOutput = $"Guest Search Book: Unit Testing"; 
 
             // Act
             using (StringWriter sw = new StringWriter())

@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SolidPrinciples.OpenClosed;
+﻿using SolidPrinciples.OpenClosed;
 
 namespace SolidPrinciplesUnitTest
 {
