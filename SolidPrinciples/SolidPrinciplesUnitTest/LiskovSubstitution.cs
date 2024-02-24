@@ -36,10 +36,10 @@ namespace SolidPrinciplesUnitTest
         public void Orange_UsedAsApple_GetColor_ReturnsOrange()
         {
             // Arrange
-            Apple polymorphicFruit = new Orange();
+            Apple apple = new Orange();
 
             // Act
-            string color = polymorphicFruit.GetColor();
+            string color = apple.GetColor();
 
             // Assert
             Assert.AreEqual("Orange", color);
